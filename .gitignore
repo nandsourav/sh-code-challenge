@@ -1,3 +1,6 @@
 .idea
 *.iml
 target
+output
+derby.log
+metastore_db
