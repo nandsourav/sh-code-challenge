@@ -22,8 +22,6 @@ object TransformUtility {
     println("Number of rows that have invalid field values: "+ignoreDf.count())
     println("Total number of records processed: "+filteredDf.count())
     println("MBR parameters are as below")
-    println("(0,0) maps to ("+lonMinValue+","+latMinValue+")")
-    println("(99,99) maps to ("+lonMaxValue+","+latMaxValue+")")
     println("Length of 1 unit across X - axis is:"+tileUnitForLon)
     println("Length of 1 unit across Y - axis is:"+tileUnitForLat)
 
